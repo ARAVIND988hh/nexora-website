@@ -38,7 +38,7 @@ function Products() {
       <section className="products-list">
         <div className="products-card">
           <div className="products-card-info">
-            <span className="status">IN DEVELOPMENT</span>
+            <span className="status">AVAILABLE NOW</span>
 
             <h2>Teacher Management System</h2>
 
@@ -47,7 +47,7 @@ function Products() {
               academic records, marks and report cards in one place.
             </p>
 
-            <h3>Planned features</h3>
+            <h3>Available features</h3>
 
             <ul>
               <li>Student record management</li>
@@ -56,8 +56,13 @@ function Products() {
               <li>Attendance management</li>
             </ul>
 
-            <a href="/#contact" className="primary-button">
-              Discuss this product ↗
+            <a
+              href="https://nexora-teacher.pages.dev"
+              className="primary-button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Launch NEXORA Teacher ↗
             </a>
           </div>
 
