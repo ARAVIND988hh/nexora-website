@@ -57,12 +57,10 @@ function Products() {
             </ul>
 
             <a
-              href="https://nexora-teacher.pages.dev"
+              href="https://nexora-teacher.pages.dev/"
               className="primary-button"
-              target="_blank"
-              rel="noopener noreferrer"
             >
-              Launch NEXORA Teacher ↗
+              NEXORA Teacher
             </a>
           </div>
 
