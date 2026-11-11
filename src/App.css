@@ -214,6 +214,128 @@ a {
   gap: 40px;
 }
 
+.play-section-heading {
+  margin: 85px 0 35px;
+  text-align: center;
+}
+
+.play-section-heading h2 {
+  font-size: clamp(30px, 4vw, 48px);
+  letter-spacing: -2px;
+  margin-top: 20px;
+}
+
+.play-card {
+  align-items: start;
+}
+
+.product-info .play-plan {
+  margin-top: 22px;
+}
+
+.play-categories {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
+  margin-top: 16px;
+  color: #a1a1aa;
+  font-size: 13px;
+  line-height: 1.6;
+  list-style: none;
+}
+
+.play-categories li::before {
+  content: "•";
+  color: #818cf8;
+  margin-right: 9px;
+}
+
+.play-visual {
+  min-height: 320px;
+  position: relative;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at center, #202735 0, #101319 68%);
+  border: 1px solid #303744;
+  border-radius: 15px;
+}
+
+.play-orbit {
+  position: absolute;
+  border: 1px solid #303744;
+  border-radius: 50%;
+}
+
+.play-orbit-outer {
+  width: 250px;
+  height: 250px;
+}
+
+.play-orbit-inner {
+  width: 165px;
+  height: 165px;
+  border-color: #454e62;
+  transform: rotate(35deg) scaleX(0.7);
+}
+
+.play-core,
+.play-token {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  border: 1px solid #454e62;
+  box-shadow: 0 12px 35px #101319;
+}
+
+.play-core {
+  width: 68px;
+  height: 68px;
+  border-radius: 20px;
+  background: #818cf8;
+  color: #101319;
+  font-size: 32px;
+  font-weight: 800;
+  transform: rotate(-8deg);
+}
+
+.play-token {
+  width: 42px;
+  height: 42px;
+  border-radius: 13px;
+  background: #191e27;
+  color: #a5aeff;
+  font-size: 22px;
+}
+
+.play-token-one {
+  top: 24%;
+  left: 28%;
+  transform: rotate(-12deg);
+}
+
+.play-token-two {
+  top: 34%;
+  right: 23%;
+  color: #f5f5f7;
+  transform: rotate(12deg);
+}
+
+.play-token-three {
+  bottom: 23%;
+  left: 34%;
+  font-size: 14px;
+}
+
+.play-visual-label {
+  position: absolute;
+  bottom: 25px;
+  color: #a1a1aa;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+
 .status {
   color: #818cf8;
   font-size: 10px;
@@ -366,9 +488,14 @@ a {
 }
 
 .footer p,
-.footer > span {
+.footer > span,
+.footer-email {
   color: #a1a1aa;
   font-size: 12px;
+}
+
+.footer-email:hover {
+  color: #818cf8;
 }
 
 @media (max-width: 800px) {
@@ -398,6 +525,18 @@ a {
   .product-card {
     grid-template-columns: 1fr;
     padding: 30px;
+  }
+
+  .play-section-heading {
+    margin-top: 65px;
+  }
+
+  .play-categories {
+    grid-template-columns: 1fr;
+  }
+
+  .play-visual {
+    min-height: 250px;
   }
 
   .footer {
