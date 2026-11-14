@@ -5,8 +5,8 @@ function Products() {
     <div className="products-page">
       <nav className="products-nav">
         <a href="/" className="logo">
-          <span className="logo-icon">N</span>
-          NEXORA
+          <span className="logo-icon">A</span>
+          ARV
         </a>
 
         <div className="products-nav-links">
@@ -60,7 +60,7 @@ function Products() {
               href="https://nexora-teacher.pages.dev/"
               className="primary-button"
             >
-              NEXORA Teacher
+              ARV Teacher
             </a>
           </div>
 
@@ -88,9 +88,9 @@ function Products() {
       </section>
 
       <footer className="products-footer">
-        <strong>NEXORA</strong>
+        <strong>ARV Technologies</strong>
         <span>Building software. Solving problems.</span>
-        <span>© {new Date().getFullYear()} NEXORA.</span>
+        <span>© {new Date().getFullYear()} ARV Technologies.</span>
       </footer>
     </div>
   );

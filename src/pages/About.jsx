@@ -6,8 +6,8 @@ function About() {
     <div className="about-page">
       <nav className="about-nav">
         <Link to="/" className="logo">
-          <span className="logo-icon">N</span>
-          NEXORA
+          <span className="logo-icon">A</span>
+          ARV
         </Link>
 
         <div className="about-nav-links">
@@ -22,7 +22,7 @@ function About() {
       </nav>
 
       <section className="about-hero">
-        <span className="eyebrow">ABOUT NEXORA</span>
+        <span className="eyebrow">ABOUT ARV</span>
 
         <h1>
           We believe in
@@ -31,8 +31,8 @@ function About() {
         </h1>
 
         <p>
-          NEXORA is an independent software company focused on building useful
-          digital products that solve real-world problems.
+          ARV Technologies is an independent software company focused on
+          building useful digital products that solve real-world problems.
         </p>
       </section>
 
@@ -82,9 +82,9 @@ function About() {
       </section>
 
       <footer className="about-footer">
-        <strong>NEXORA</strong>
+        <strong>ARV Technologies</strong>
         <span>Building software. Solving problems.</span>
-        <span>© {new Date().getFullYear()} NEXORA.</span>
+        <span>© {new Date().getFullYear()} ARV Technologies.</span>
       </footer>
     </div>
   );
