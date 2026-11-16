@@ -7,8 +7,8 @@ function Home() {
       {/* Navigation */}
       <nav className="navbar">
         <Link to="/" className="logo">
-          <span className="logo-icon">A</span>
-          ARV
+          <span className="logo-icon">N</span>
+          NEXORA
         </Link>
 
         <div className="nav-links">
@@ -42,7 +42,7 @@ function Home() {
             Explore products <span>↗</span>
           </a>
           <a href="#about" className="secondary-button">
-            Discover ARV Technologies
+            Discover NEXORA
           </a>
         </div>
 
@@ -112,14 +112,14 @@ function Home() {
         <div className="product-card play-card">
           <div className="product-info">
             <span className="status">Coming Soon</span>
-            <h3>ARV Play</h3>
+            <h3>NEXORA Play</h3>
             <p>
               Interactive educational games designed to make learning
               enjoyable. Develop logical thinking, problem-solving, creativity,
               memory, mathematics, and other valuable skills through gameplay.
             </p>
             <p className="play-plan">
-              ARV plans to develop educational games that combine learning
+              NEXORA plans to develop educational games that combine learning
               and entertainment, including:
             </p>
             <ul className="play-categories">
@@ -139,7 +139,7 @@ function Home() {
             <div className="play-token play-token-one">+</div>
             <div className="play-token play-token-two">◇</div>
             <div className="play-token play-token-three">●</div>
-            <div className="play-core">A</div>
+            <div className="play-core">N</div>
             <span className="play-visual-label">LEARN · PLAY · GROW</span>
           </div>
         </div>
@@ -160,7 +160,7 @@ function Home() {
 
       {/* Contact */}
       <section className="contact" id="contact">
-        <span className="eyebrow">CONTACT ARV</span>
+        <span className="eyebrow">CONTACT NEXORA</span>
         <h2>Let's solve something meaningful.</h2>
         <p>Have a problem worth solving? We'd like to hear about it.</p>
         <a
@@ -174,8 +174,8 @@ function Home() {
       {/* Footer */}
       <footer className="footer">
         <a href="#home" className="logo">
-          <span className="logo-icon">A</span>
-          ARV
+          <span className="logo-icon">N</span>
+          NEXORA
         </a>
         <p>Building software. Solving problems.</p>
         <a
@@ -185,7 +185,7 @@ function Home() {
           1nexoraofficial@gmail.com
         </a>
         <span>
-          © {new Date().getFullYear()} ARV Technologies. Built with purpose.
+          © {new Date().getFullYear()} NEXORA. Built with purpose.
         </span>
       </footer>
     </div>

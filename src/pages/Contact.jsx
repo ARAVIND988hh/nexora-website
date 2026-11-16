@@ -6,8 +6,8 @@ function Contact() {
     <div className="contact-page">
       <nav className="contact-nav">
         <Link to="/" className="logo">
-          <span className="logo-icon">A</span>
-          ARV
+          <span className="logo-icon">N</span>
+          NEXORA
         </Link>
 
         <div className="contact-nav-links">
@@ -18,7 +18,7 @@ function Contact() {
       </nav>
 
       <section className="contact-hero">
-        <span className="eyebrow">CONTACT ARV</span>
+        <span className="eyebrow">CONTACT NEXORA</span>
 
         <h1>
           Let's build something
@@ -51,9 +51,9 @@ function Contact() {
       </section>
 
       <footer className="contact-footer">
-        <strong>ARV Technologies</strong>
+        <strong>NEXORA</strong>
         <span>Building software. Solving problems.</span>
-        <span>© {new Date().getFullYear()} ARV Technologies.</span>
+        <span>© {new Date().getFullYear()} NEXORA.</span>
       </footer>
     </div>
   );
